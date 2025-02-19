@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Task</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            
+        }
+
+        .navbar {
+            background-color: #28a745;
+            height: 100px;
+            padding: 1rem;
+            color: white;
+            text-align: center; 
+        }
+
+        .navbar h1 {
+            margin: 0;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul li {
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 2rem;
+            justify-content: center;
+        }
+
+        .content .card:nth-child(3) {
+            grid-column: span 2;
+            justify-self: center;
+        }
+
+        .card1,.card2,.card3 {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 510px;
+            height: 100px;
+            
+        }
+        .card3{
+            justify-self:right;
+        }
+        
+
+        .card1 h2, .card2 h2, .card3 h2 {
+            color: #28a745;
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #28a745;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        footer {
+            text-align: center;
+            
+            color: white;
+            padding: 15px;
+            margin-top: auto;
+        }
+        .Footer{
+            margin-top:262px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Welcome to Your Website Task</h1>
+        <br>
+        <br>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="card1">
+            <h2>About CSS</h2>
+            <p>Cascading Style Sheets (CSS) allow you to style and layout your web pages, adding colors, spacing, and more.</p>
+        </div>
+
+        
+
+        <div class="card3">
+            <h2>Box Model</h2>
+            <p>The CSS box model describes the rectangular boxes generated for elements. It includes margins, borders, padding, and the actual content.</p>
+        </div>
+
+        <div class="card2">
+            <h2>Responsive Design</h2>
+            <p>Responsive design ensures your webpage looks great on all devices, from desktops to mobile phones.</p>
+        </div>
+    </div>
+  
+    <div class="Footer">
+    <footer>
+        <p> Created by Ramish Raza    |    Follow us on <a href="https://www.instagram.com/ramishra.za/?__pwa=1" style="color: green;">  Instagram  </a> | <a href="https://x.com/Ramishra_za" style="color: green;">  Twitter  </a> | <a href="https://www.linkedin.com/in/ramish-raza" style="color: green;">  Linkedln  </a></p>
+    </footer>
+</div>
+</body>
+</html>
